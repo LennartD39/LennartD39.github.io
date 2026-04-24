@@ -11,4 +11,14 @@ ul {
 
 li {
   margin-left: 20px;
+  color: darkblue
+}
+h1,h2 {
+    color: purple
+}
+p {
+    color: rgb(65, 50, 50)
+}
+strong {
+    color: red
 }
