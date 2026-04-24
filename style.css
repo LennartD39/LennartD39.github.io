@@ -1,24 +1,49 @@
 html {
-  background-color: rgb(255, 255, 255);
-  font-size: 20px;
+  background-color: white;
+  height: 100%;
+}
+
+body {
+  background-color: #efefef;
+  padding:30px;
+  width: 500px;
+  margin: 0 auto;
+  font: 1.2em / 1.5 system-ui;
+  height: 100%;
+
+  
 }
 
 ul {
-  background: rgb(255, 255, 255);
-  padding: 10px;
-  border: 1px solid black;
+  background-color: white;
+  border: 5px solid purple;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-li {
-  margin-left: 20px;
-  color: darkblue
+h1 {
+  color: darkslategray;
+  border-bottom: 10px dotted purple;
+  font-size: 2rem;
 }
-h1,h2 {
-    color: purple
+h2 {
+  font: italic;
+  font-size: 1.5rem
 }
-p {
-    color: rgb(65, 50, 50)
+
+.job-title {
+  color: darkslategray;
+  font-weight: bold;
 }
-strong {
-    color: red
+
+a {
+  color: green;
 }
+
+a:hover, a:focus {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+
+
