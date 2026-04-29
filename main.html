@@ -11,23 +11,46 @@
   </head>
 
   <body>
-    <h1>Lennart Derenthal</h1>
-    <div class="job-title">Web and Software Developer</div>
-    <p>
-      Hello, I am 16 years old and this is my first website<br> I need a long text. This text should be very long to test my cool website. Not long enough yet. You dont have to keep on reading though
-    </p>
-    <h2>Hobbies:</h2>
-    <ul>
-      <li>Coding</li>
-      <li>Videogames</li>
-      <li>Rowing</li>
-      <li>Handball</li>
-    </ul>
-    <h2>Contact:</h2>
-    <ul>
-      <li>Email: <a href="mailto:l@derenthal.net">l@derenthal.net</a></li>
-      <li>Instagram: <a href="https://instagram.com">My insta</a></li>
-    </ul>
+    <div class="main">
+      
+      <div class="top-bar">
+        
+        <a href="/main.html"><img class="logo"src="logo_bismarck.png" alt="Logo nicht verfügbar"></a>
+        <a href="/main.html"><button class="btn" onclick="changeText()">Minesweeper</button></a>
+        <a href="/main.html"><button class="btn">Tetris</button></a>
+        <a href="/main.html"><button class="btn">About me</button></a>
+      </div>
+
+      <div class="screen">
+        <h1>Number guessing game</h1>
+
+        <p>
+        We have selected a random number between 1 and 100. See if you can guess
+        it in 10 turns or fewer. We'll tell you if your guess was too high or too
+        low.
+        </p>
+
+        <div class="form">
+          <label for="guessField">Enter a guess: </label>
+          <input
+            type="number"
+            min="1"
+            max="100"
+            required
+            id="guessField"
+            class="guessField" />
+          <input type="submit" value="Submit guess" class="guessSubmit" />
+        </div>
+
+        <div class="resultParas">
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHi"></p>
+        </div>
+
+      </div>
+
+    </div>
   </body>
 
 
